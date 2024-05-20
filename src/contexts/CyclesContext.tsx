@@ -54,6 +54,8 @@ export function CyclesContextProvider({
         }
       }),
     )
+
+    setActiveCycleId(null)
   }
 
   function createNewCycle(data: CreateCycleData) {
